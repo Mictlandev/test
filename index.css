@@ -1,0 +1,83 @@
+.log {
+    /* display: center; */
+    /* justify-content: center;
+    align-items: center;
+    display:flex;*/
+    /* margin: 300px auto;  */
+    position: relative;
+    top: 270px;
+    left: 150px;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    box-shadow: 4px 5px 5px 4px rgb(102, 160, 8);
+}
+
+.spaceusername {
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    top:25px;
+    height: 35px;
+    width: 400px;
+    .username {
+        position: relative;
+    top:2px;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(230, 227, 227);
+    border:none;
+    }
+}
+
+.spacepassword {
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    top:35px;
+    height: 35px;
+    width: 400px;
+    .password {
+        position: relative;
+        top:2px;
+        height: 35px;
+        width: 250px;
+        background-color: rgb(230, 227, 227);
+        border:none;
+    }
+    
+}
+
+.butt {
+    .button {
+        color:white;
+        background-color: green;
+        width: 250px;
+        height: 50px;
+        border: none;
+        
+    }
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 45px;
+
+}
+
+.second {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 65px; 
+}
+
+.acc {
+    color: green;
+}
+.qw {
+    color: rgb(177, 177, 177);
+}
